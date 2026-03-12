@@ -1,0 +1,7 @@
+version: "3.8"
+
+services:
+  llm_dashboard:
+    build: .
+    ports:
+      - "8501:8501"

@@ -1,0 +1,58 @@
+{
+  "total_tokens": 19000,
+  "estimated_cost_usd": 0.338,
+  "request_count": 10,
+  "period_start": "2025-03-01",
+  "period_end": "2025-03-10",
+  "by_model": [
+    {"model_name": "gpt-4o", "provider": "openai", "tokens": 4350, "cost_usd": 0.088},
+    {"model_name": "claude-3-sonnet", "provider": "anthropic", "tokens": 4550, "cost_usd": 0.105},
+    {"model_name": "llama-3.3-70b", "provider": "groq", "tokens": 1600, "cost_usd": 0.018},
+    {"model_name": "gpt-4", "provider": "azure_openai", "tokens": 2900, "cost_usd": 0.072},
+    {"model_name": "gpt-4o-mini", "provider": "openai", "tokens": 1200, "cost_usd": 0.012},
+    {"model_name": "claude-3-haiku", "provider": "anthropic", "tokens": 1050, "cost_usd": 0.009},
+    {"model_name": "llama-3.1-8b", "provider": "groq", "tokens": 1700, "cost_usd": 0.014},
+    {"model_name": "gpt-35-turbo", "provider": "azure_openai", "tokens": 1650, "cost_usd": 0.020}
+  ],
+  "by_interaction_type": [
+    {"interaction_type": "ai_chat", "tokens": 6400, "cost_usd": 0.111},
+    {"interaction_type": "test_generation", "tokens": 4100, "cost_usd": 0.069},
+    {"interaction_type": "code_generation", "tokens": 3950, "cost_usd": 0.066},
+    {"interaction_type": "impact_analysis", "tokens": 4550, "cost_usd": 0.092}
+  ],
+  "by_provider": [
+    {"provider": "openai", "tokens": 5550, "cost_usd": 0.100},
+    {"provider": "anthropic", "tokens": 5600, "cost_usd": 0.114},
+    {"provider": "groq", "tokens": 3300, "cost_usd": 0.032},
+    {"provider": "azure_openai", "tokens": 4550, "cost_usd": 0.092}
+  ],
+  "by_user": [
+    {"user_id": 101, "tokens": 5950, "cost_usd": 0.106},
+    {"user_id": 102, "tokens": 3450, "cost_usd": 0.064},
+    {"user_id": 103, "tokens": 4550, "cost_usd": 0.092},
+    {"user_id": 104, "tokens": 3350, "cost_usd": 0.062},
+    {"user_id": 105, "tokens": 1700, "cost_usd": 0.014}
+  ],
+  "daily_trend": [
+    {"date": "2025-03-01", "tokens": 4400, "cost_usd": 0.095, "request_count": 2},
+    {"date": "2025-03-02", "tokens": 1600, "cost_usd": 0.018, "request_count": 1},
+    {"date": "2025-03-03", "tokens": 2900, "cost_usd": 0.072, "request_count": 1},
+    {"date": "2025-03-04", "tokens": 1200, "cost_usd": 0.012, "request_count": 1},
+    {"date": "2025-03-05", "tokens": 1050, "cost_usd": 0.009, "request_count": 1},
+    {"date": "2025-03-06", "tokens": 1700, "cost_usd": 0.014, "request_count": 1},
+    {"date": "2025-03-07", "tokens": 2350, "cost_usd": 0.048, "request_count": 1},
+    {"date": "2025-03-08", "tokens": 1650, "cost_usd": 0.020, "request_count": 1},
+    {"date": "2025-03-09", "tokens": 2150, "cost_usd": 0.050, "request_count": 1}
+  ],
+  "hourly_trend": [
+    {"hour": "09:00", "tokens": 1600, "cost_usd": 0.018},
+    {"hour": "10:00", "tokens": 4350, "cost_usd": 0.088},
+    {"hour": "11:00", "tokens": 2400, "cost_usd": 0.055},
+    {"hour": "12:00", "tokens": 1050, "cost_usd": 0.009},
+    {"hour": "13:00", "tokens": 1650, "cost_usd": 0.020},
+    {"hour": "14:00", "tokens": 2900, "cost_usd": 0.072},
+    {"hour": "15:00", "tokens": 1700, "cost_usd": 0.014},
+    {"hour": "16:00", "tokens": 1200, "cost_usd": 0.012},
+    {"hour": "17:00", "tokens": 2150, "cost_usd": 0.050}
+  ]
+}

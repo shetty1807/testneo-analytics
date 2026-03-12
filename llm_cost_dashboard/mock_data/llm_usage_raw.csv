@@ -1,0 +1,11 @@
+id,user_id,project_id,llm_provider,model_name,interaction_type,prompt_tokens,completion_tokens,total_tokens,estimated_cost_usd,request_id,created_at
+1,101,201,openai,gpt-4o,ai_chat,1200,800,2000,0.040,req_001,2025-03-01T10:15:00
+2,102,202,anthropic,claude-3-sonnet,test_generation,1500,900,2400,0.055,req_002,2025-03-01T11:30:00
+3,101,201,groq,llama-3.3-70b,code_generation,900,700,1600,0.018,req_003,2025-03-02T09:45:00
+4,103,203,azure_openai,gpt-4,impact_analysis,1800,1100,2900,0.072,req_004,2025-03-03T14:10:00
+5,104,204,openai,gpt-4o-mini,ai_chat,700,500,1200,0.012,req_005,2025-03-04T16:20:00
+6,102,202,anthropic,claude-3-haiku,ai_chat,600,450,1050,0.009,req_006,2025-03-05T12:05:00
+7,105,205,groq,llama-3.1-8b,test_generation,1100,600,1700,0.014,req_007,2025-03-06T15:00:00
+8,101,201,openai,gpt-4o,code_generation,1400,950,2350,0.048,req_008,2025-03-07T10:40:00
+9,103,203,azure_openai,gpt-35-turbo,impact_analysis,1000,650,1650,0.020,req_009,2025-03-08T13:25:00
+10,104,204,anthropic,claude-3-sonnet,ai_chat,1300,850,2150,0.050,req_010,2025-03-09T17:10:00
