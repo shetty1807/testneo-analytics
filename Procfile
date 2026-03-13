@@ -1,1 +1,1 @@
-web: sh -c "cd llm_cost_dashboard && streamlit run app.py --server.port=$PORT --server.address=0.0.0.0 --server.headless=true"
+web: streamlit run llm_cost_dashboard/app.py --server.port=$PORT --server.address=0.0.0.0 --server.headless=true
